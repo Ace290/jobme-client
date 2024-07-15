@@ -1,6 +1,5 @@
 import React from "react";
 import SearchForm from "../components/SearchForm";
-import { jobs } from "../data/jobs";
 import JobCardLong from "../components/JobCardLong";
 import Layout from "../components/Layout";
 import Paginate from "../components/Paginate";

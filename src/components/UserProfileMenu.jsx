@@ -4,7 +4,6 @@ import {
   MdOutlineSettings,
   MdHelpOutline,
 } from "react-icons/md";
-import avatar from "../assets/avatar.png";
 import { Link } from "react-router-dom";
 import axios from "axios"
 import { useState, useEffect } from "react";
