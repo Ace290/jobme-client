@@ -27,6 +27,7 @@ const Login = () => {
     setIsSubmitting(true);
     console.log(data);
     // Handle form submission
+    data.email = data.email.toLowerCase();
     try {
       const { data: result } = await axios.post(
         "https://jobme-server-ntj9.onrender.com/api/v1/login",
